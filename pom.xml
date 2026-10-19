@@ -15,7 +15,7 @@
     <artifactId>backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>backend</name>
-    <description>Backend de BeatMarket - Marketplace de Beats</description>
+    <description>Backend de BeatMarket</description>
 
     <properties>
         <java.version>17</java.version>
