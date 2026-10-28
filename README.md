@@ -1,11 +1,12 @@
 # BeatMarket
 
-Proyecto de la materia de desarrollo con Spring Boot (UTS, Tecnología en Desarrollo de Sistemas Informáticos).
+Proyecto de la materia de desarrollo con Spring Boot UTS, ...
 
-BeatMarket es una tienda de beats para productores musicales y artistas. Un productor publica sus beats, un comprador los escucha en un fragmento corto y compra la licencia que necesita, y un administrador controla los usuarios y el catálogo.
+BeatMarket es una tienda de beats ...
 
-**Autor:** Yesid (proyecto individual)
-**Repositorio del frontend:** (pega aquí el enlace del repo del frontend)
+- **Autor:** Yesid Camilo Manrique Rueda
+- **Backend:** [github.com/tamilo1217-lgtm/beatmarket](https://github.com/tamilo1217-lgtm/beatmarket)
+- **Frontend:** [github.com/tamilo1217-lgtm/beatmarket-frontend](https://github.com/tamilo1217-lgtm/beatmarket-frontend)
 
 ## Qué hace hoy
 
@@ -88,13 +89,12 @@ Ejemplo de usuario para crear:
 }
 ```
 
-Documentación interactiva con Swagger: `http://localhost:8080/swagger-ui/index.html`
 
 Los errores se devuelven en JSON, por ejemplo `{ "status": 400, "error": "...", "mensaje": "..." }`. Si falla una validación, se indica el campo con su mensaje.
 
 ## CRUD del integrante
 
-Como el proyecto es individual, el CRUD es el de **Usuario**: crear, consultar, actualizar y eliminar usuarios con su rol, validado con JWT. Se puede probar desde Swagger, Postman o desde la pantalla "Usuarios" del frontend (entrando como administrador).
+Como el proyecto es individual, el CRUD es el de **Usuario**: crear, consultar, actualizar y eliminar usuarios con su rol, validado con JWT. Se puede probar desde Postman o desde la pantalla "Usuarios" del frontend (entrando como administrador).
 
 ## Base de datos
 
